@@ -26,7 +26,7 @@ public class TaskService {
                 taskAllByDate.add(task);
             }
         }
-        return getAllTasks();
+        return taskAllByDate;
     }
 
     public void removedTasks(int id) throws TaskNotFoundException {
